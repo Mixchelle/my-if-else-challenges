@@ -5,7 +5,7 @@ const {
     isEven,
     isBetween10And50,
     canVote,
-    canAcceptPassengers,
+    hasMoreThanFiveChars,
     maxOfTwoNumbers,
     minOfThreeNumbers,
     startsWithA,

@@ -1,66 +1,41 @@
 // challenges/hard.js
 
 // 1. Verificar se uma pessoa está na faixa etária de 20 a 30 anos.
+// A função deve receber um número representando a idade de uma pessoa e retornar true se 
+// a idade estiver entre 20 e 30 anos, inclusive. Caso contrário, deve retornar false.
 function isInAgeRange(age) {
-    // Retorna true se a idade estiver entre 20 e 30 (inclusive)
-    if (age >= 20 && age <= 30) {
-        return true;
-    } else {
-        return false;
-    }
+    // Adicione sua lógica aqui
 }
 
 // 2. Verificar se um número está em uma lista específica.
+// A função deve receber um número e uma lista (array) de números. 
+// Deve retornar true se o número estiver presente na lista e false caso contrário.
+// Inicialize a variável 'encontrada' como false e utilize um loop para verificar a presença.
 function isInList(num, list) {
-    // Inicializa a variável encontrada como false
-    let found = false;
-    // Verifica cada item da lista
-    for (let i = 0; i < list.length; i++) {
-        if (list[i] === num) {
-            found = true; // Atualiza found se o número estiver na lista
-            break; // Sai do loop se o número for encontrado
-        }
-    }
-    // Retorna found
-    if (found) {
-        return true;
-    } else {
-        return false;
-    }
+    // Adicione sua lógica aqui
 }
 
 // 3. Verificar se uma cor é primária.
+// A função deve receber uma string representando uma cor e retornar true se a cor 
+// for uma das cores primárias (red, blue, yellow) e false caso contrário. 
+// As cores devem ser comparadas de forma insensível a maiúsculas e minúsculas.
 function isPrimaryColor(color) {
-    // Define as cores primárias
-    const primaryColors = ['red', 'blue', 'yellow'];
-    // Verifica se a cor está nas cores primárias
-    if (primaryColors.includes(color.toLowerCase())) {
-        return true;
-    } else {
-        return false;
-    }
+    // Adicione sua lógica aqui
 }
 
 // 4. Verificar se um número é ímpar.
+// A função deve receber um número e retornar true se o número for ímpar. 
+// Um número é considerado ímpar se o resto da divisão por 2 for diferente de 0.
 function isOdd(num) {
-    // Um número é ímpar se o resto da divisão por 2 for diferente de 0
-    if (num % 2 !== 0) {
-        return true;
-    } else {
-        return false;
-    }
+    // Adicione sua lógica aqui
 }
 
 // 5. Verificar se uma string contém apenas letras.
+// A função deve receber uma string e retornar true se todos os caracteres na string 
+// forem letras (a-z ou A-Z). Caso contrário, deve retornar false. 
+// Utilize um loop ou método adequado para verificar cada caractere da string.
 function containsOnlyLetters(str) {
-    // Verifica se cada caractere da string é uma letra
-    for (let i = 0; i < str.length; i++) {
-        if (!/[a-zA-Z]/.test(str[i])) {
-            return false; // Retorna false se encontrar um caractere que não seja letra
-        }
-    }
-    // Retorna true se todos os caracteres forem letras
-    return true;
+    // Adicione sua lógica aqui
 }
 
 module.exports = {
